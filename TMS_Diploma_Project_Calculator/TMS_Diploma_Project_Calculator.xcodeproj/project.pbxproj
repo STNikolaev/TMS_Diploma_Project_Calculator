@@ -13,6 +13,7 @@
 		92287BC2280ED10B0025E1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92287BC0280ED10B0025E1CA /* Main.storyboard */; };
 		92287BC4280ED10C0025E1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92287BC3280ED10C0025E1CA /* Assets.xcassets */; };
 		92287BC7280ED10C0025E1CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92287BC5280ED10C0025E1CA /* LaunchScreen.storyboard */; };
+		92FCFC2028100E72002C246D /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FCFC1F28100E72002C246D /* CalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		92287BC3280ED10C0025E1CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92287BC6280ED10C0025E1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92287BC8280ED10C0025E1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FCFC1F28100E72002C246D /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				92287BBA280ED10B0025E1CA /* AppDelegate.swift */,
 				92287BBC280ED10B0025E1CA /* SceneDelegate.swift */,
-				92287BBE280ED10B0025E1CA /* ViewController.swift */,
-				92287BC0280ED10B0025E1CA /* Main.storyboard */,
+				92FCFC2128100F71002C246D /* Model */,
+				92FCFC2328100F8E002C246D /* View */,
+				92FCFC2228100F85002C246D /* Controller */,
 				92287BC3280ED10C0025E1CA /* Assets.xcassets */,
 				92287BC5280ED10C0025E1CA /* LaunchScreen.storyboard */,
 				92287BC8280ED10C0025E1CA /* Info.plist */,
 			);
 			path = TMS_Diploma_Project_Calculator;
+			sourceTree = "<group>";
+		};
+		92FCFC2128100F71002C246D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92FCFC1F28100E72002C246D /* CalculatorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FCFC2228100F85002C246D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92287BBE280ED10B0025E1CA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92FCFC2328100F8E002C246D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92287BC0280ED10B0025E1CA /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				92287BBF280ED10B0025E1CA /* ViewController.swift in Sources */,
 				92287BBB280ED10B0025E1CA /* AppDelegate.swift in Sources */,
 				92287BBD280ED10B0025E1CA /* SceneDelegate.swift in Sources */,
+				92FCFC2028100E72002C246D /* CalculatorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
